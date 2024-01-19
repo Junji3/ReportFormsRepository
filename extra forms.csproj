@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52303E1A-724D-4D0C-A0E0-55B4CE439CFF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>extra_forms</RootNamespace>
+    <AssemblyName>extra forms</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v23.1.Core, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.CodeParser.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v23.1.UI, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Diagram.v23.1.Core, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Drawing.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v23.1.Core, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v23.1.Core, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v23.1.Drawing, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v23.1.Core, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v23.1.Core, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v23.1.Core, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v23.1.Export, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v23.1.Core, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v23.1.UI, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v23.1.Extensions, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v23.1.Wizard, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraDiagram.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v23.1.Core, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v23.1.CodeCompletion, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v23.1.Extensions, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v23.1, Version=23.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DisplayReportTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayReportTest.Designer.cs">
+      <DependentUpon>DisplayReportTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\AmmortizationSchedule.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AmmortizationSchedule.Designer.cs">
+      <DependentUpon>AmmortizationSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Certification.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Certification.Designer.cs">
+      <DependentUpon>Certification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\CustomersSlipReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CustomersSlipReport.Designer.cs">
+      <DependentUpon>CustomersSlipReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\CustomerLoanGuide.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CustomerLoanGuide.Designer.cs">
+      <DependentUpon>CustomerLoanGuide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DeedOfReconveyance.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DeedOfReconveyance.Designer.cs">
+      <DependentUpon>DeedOfReconveyance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DeedOfSaleWithAssumptionOfMortgage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DeedOfSaleWithAssumptionOfMortgage.Designer.cs">
+      <DependentUpon>DeedOfSaleWithAssumptionOfMortgage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DisclosureStatement OfLoanCreditTransaction.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DisclosureStatement OfLoanCreditTransaction.Designer.cs">
+      <DependentUpon>DisclosureStatement OfLoanCreditTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PullOutReceipt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PullOutReceipt.Designer.cs">
+      <DependentUpon>PullOutReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\UndertakingsUnderstanding.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\UndertakingsUnderstanding.Designer.cs">
+      <DependentUpon>UndertakingsUnderstanding.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DisplayReportTest.resx">
+      <DependentUpon>DisplayReportTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reports\AmmortizationSchedule.resx">
+      <DependentUpon>AmmortizationSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Certification.resx">
+      <DependentUpon>Certification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CustomersSlipReport.resx">
+      <DependentUpon>CustomersSlipReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CustomerLoanGuide.resx">
+      <DependentUpon>CustomerLoanGuide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DeedOfReconveyance.resx">
+      <DependentUpon>DeedOfReconveyance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DeedOfSaleWithAssumptionOfMortgage.resx">
+      <DependentUpon>DeedOfSaleWithAssumptionOfMortgage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DisclosureStatement OfLoanCreditTransaction.resx">
+      <DependentUpon>DisclosureStatement OfLoanCreditTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PullOutReceipt.resx">
+      <DependentUpon>PullOutReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\UndertakingsUnderstanding.resx">
+      <DependentUpon>UndertakingsUnderstanding.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

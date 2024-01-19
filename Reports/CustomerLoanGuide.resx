@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="xrLabel38.Text" xml:space="preserve">
+    <value>This is to certify that I,  &lt;CustomerName&gt; understood the customer loan guide, explain/orient by your representative &lt;RepresentativeName&gt;. I am all aware under the provision of chattel mortgage and promissory note. </value>
+  </data>
+  <data name="xrLabel33.Text" xml:space="preserve">
+    <value>11. CARNAPPED, LOSS, DAMAGE, AND CANNIBALZED, or whatsoever reasons undre mortgage, your obligation must continue in paying monthly installment until full payment as agreed in chattel mortgage and promissory note. </value>
+  </data>
+  <data name="xrLabel32.Text" xml:space="preserve">
+    <value>10. The motorcycle mortgage unit, own by 28ARC CREDIT AND ALLIED SERVICES INC only. Under encumbrance to your name, But Sale or pledge of this unit mortgaged property to a third party is strictly prohibited under the provision of the chattel mortgage. The company has the absolute right to prosecute and file criminal charges under the revised penal code. </value>
+  </data>
+  <data name="xrLabel31.Text" xml:space="preserve">
+    <value>9. The company extent credit and approved your application base in your declared general situation, but if you have change your residence or place of work, you must report to our company 28ARC CREDIT AND ALLIED SERVICES INC, to certified approval, but if disapproved, you must surrender or deposit the unit for computation of full payment. </value>
+  </data>
+  <data name="xrLabel30.Text" xml:space="preserve">
+    <value>8. Redemption will last until one (1) month only from the time of your unit was deposited in our office. "NO BALANCE" and Pay all monthly dues for retrieval or redemption to continue the payment term. </value>
+  </data>
+  <data name="xrLabel27.Text" xml:space="preserve">
+    <value>5.Failure to pay on due date, expect our office will remind you by personal visit of our personnel, collection/reminder letter, call/text, and other means of communication for follow up of your due account. </value>
+  </data>
+  <data name="xrLabel26.Text" xml:space="preserve">
+    <value>4. The company will exercise due date of payment to avail the rebate. If delayed, monthly amortization can pay within the 5 days from due date and additional 5% interest will effect after 5 days grace period until next due date. </value>
+  </data>
+  <data name="xrLabel10.Text" xml:space="preserve">
+    <value>4. The Company will only pay the first year of registration. In the time of renewal or expiration of your motorcycle registration, it is your obligation to process with expenses herewith and insurance premium. </value>
+  </data>
+  <data name="xrLabel9.Text" xml:space="preserve">
+    <value>3. The 28 ARC CREDIT AND ALLIED SERVICES INC can only provide sales transaction papers to certify that you own the motorcycle in installment term. In the event of accident, impoundment, disobedience to traffic rules, no license and/or any act of violation by negligence in your part will leave the company with no liability and will not pay any expense that may occur - these will solely be shouldered by you. </value>
+  </data>
+  <data name="xrLabel7.Text" xml:space="preserve">
+    <value>1. Upon completion of our sales transaction, we will endorse the following pertinent papers to Land Transportation Office (LTO) for motorcycle registration by encumbered, LTO office will inform us is to when the MC Registration will be available for pick-up, more or less maximum three (3) months from date of receipt by LTO.</value>
+  </data>
+  <data name="xrLabel6.Text" xml:space="preserve">
+    <value>You have entered into purchase contract LOAN with 28 ARC CREDIT AND ALLIED INC, it is expected that you will follow and comply all the terms and conditions as you signed the chattel Mortgage and Promissory note.</value>
+  </data>
+</root>
