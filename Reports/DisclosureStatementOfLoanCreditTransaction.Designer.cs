@@ -1,6 +1,6 @@
 ﻿namespace extra_forms.Reports
 {
-    partial class DisclosureStatement_OfLoanCreditTransaction
+    partial class DisclosureStatementOfLoanCreditTransaction
     {
         /// <summary>
         /// Required designer variable.

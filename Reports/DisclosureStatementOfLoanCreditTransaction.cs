@@ -6,9 +6,9 @@ using System.Drawing;
 
 namespace extra_forms.Reports
 {
-    public partial class DisclosureStatement_OfLoanCreditTransaction : DevExpress.XtraReports.UI.XtraReport
+    public partial class DisclosureStatementOfLoanCreditTransaction : DevExpress.XtraReports.UI.XtraReport
     {
-        public DisclosureStatement_OfLoanCreditTransaction()
+        public DisclosureStatementOfLoanCreditTransaction()
         {
             InitializeComponent();
         }
