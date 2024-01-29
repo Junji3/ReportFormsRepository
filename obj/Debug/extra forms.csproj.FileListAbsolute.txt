@@ -91,4 +91,8 @@ C:\Users\Junjie\source\repos\extra forms\obj\Debug\extra_forms.Reports.Ammortiza
 C:\Users\Junjie\source\repos\extra forms\obj\Debug\extra_forms.Reports.DeedOfReconveyance.resources
 C:\Users\Junjie\source\repos\extra forms\obj\Debug\extra_forms.Reports.DeedOfSaleWithAssumptionOfMortgage.resources
 C:\Users\Junjie\source\repos\extra forms\obj\Debug\extra_forms.Reports.PullOutReceipt.resources
-C:\Users\Junjie\source\repos\extra forms\obj\Debug\extra_forms.Reports.DisclosureStatement_OfLoanCreditTransaction.resources
+C:\Users\Junjie\source\repos\extra forms\obj\Debug\extra_forms.ComputationOfDisposableIncome.resources
+C:\Users\Junjie\source\repos\extra forms\obj\Debug\extra_forms.Reports.DeedOfChattelMortgage.resources
+C:\Users\Junjie\source\repos\extra forms\obj\Debug\extra_forms.Reports.DisclosureStatementOfLoanCreditTransaction.resources
+C:\Users\Junjie\source\repos\extra forms\obj\Debug\extra_forms.CreditInvestigationReport.resources
+C:\Users\Junjie\source\repos\extra forms\obj\Debug\extra_forms.Reports.TVSPreDeliveryInspectionSheet.resources

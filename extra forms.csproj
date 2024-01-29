@@ -88,6 +88,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Reports\ComputationOfDisposableIncome.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ComputationOfDisposableIncome.Designer.cs">
+      <DependentUpon>ComputationOfDisposableIncome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\CreditInvestigationReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CreditInvestigationReport.Designer.cs">
+      <DependentUpon>CreditInvestigationReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="DisplayReportTest.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +132,12 @@
     <Compile Include="Reports\CustomerLoanGuide.Designer.cs">
       <DependentUpon>CustomerLoanGuide.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reports\DeedOfChattelMortgage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DeedOfChattelMortgage.Designer.cs">
+      <DependentUpon>DeedOfChattelMortgage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\DeedOfReconveyance.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -132,11 +150,11 @@
     <Compile Include="Reports\DeedOfSaleWithAssumptionOfMortgage.Designer.cs">
       <DependentUpon>DeedOfSaleWithAssumptionOfMortgage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Reports\DisclosureStatement OfLoanCreditTransaction.cs">
+    <Compile Include="Reports\DisclosureStatementOfLoanCreditTransaction.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Reports\DisclosureStatement OfLoanCreditTransaction.Designer.cs">
-      <DependentUpon>DisclosureStatement OfLoanCreditTransaction.cs</DependentUpon>
+    <Compile Include="Reports\DisclosureStatementOfLoanCreditTransaction.Designer.cs">
+      <DependentUpon>DisclosureStatementOfLoanCreditTransaction.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\PullOutReceipt.cs">
       <SubType>Component</SubType>
@@ -144,12 +162,24 @@
     <Compile Include="Reports\PullOutReceipt.Designer.cs">
       <DependentUpon>PullOutReceipt.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reports\TVSPreDeliveryInspectionSheet.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\TVSPreDeliveryInspectionSheet.Designer.cs">
+      <DependentUpon>TVSPreDeliveryInspectionSheet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\UndertakingsUnderstanding.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reports\UndertakingsUnderstanding.Designer.cs">
       <DependentUpon>UndertakingsUnderstanding.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Reports\ComputationOfDisposableIncome.resx">
+      <DependentUpon>ComputationOfDisposableIncome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CreditInvestigationReport.resx">
+      <DependentUpon>CreditInvestigationReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DisplayReportTest.resx">
       <DependentUpon>DisplayReportTest.cs</DependentUpon>
     </EmbeddedResource>
@@ -175,17 +205,23 @@
     <EmbeddedResource Include="Reports\CustomerLoanGuide.resx">
       <DependentUpon>CustomerLoanGuide.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DeedOfChattelMortgage.resx">
+      <DependentUpon>DeedOfChattelMortgage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\DeedOfReconveyance.resx">
       <DependentUpon>DeedOfReconveyance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\DeedOfSaleWithAssumptionOfMortgage.resx">
       <DependentUpon>DeedOfSaleWithAssumptionOfMortgage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reports\DisclosureStatement OfLoanCreditTransaction.resx">
-      <DependentUpon>DisclosureStatement OfLoanCreditTransaction.cs</DependentUpon>
+    <EmbeddedResource Include="Reports\DisclosureStatementOfLoanCreditTransaction.resx">
+      <DependentUpon>DisclosureStatementOfLoanCreditTransaction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\PullOutReceipt.resx">
       <DependentUpon>PullOutReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\TVSPreDeliveryInspectionSheet.resx">
+      <DependentUpon>TVSPreDeliveryInspectionSheet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\UndertakingsUnderstanding.resx">
       <DependentUpon>UndertakingsUnderstanding.cs</DependentUpon>

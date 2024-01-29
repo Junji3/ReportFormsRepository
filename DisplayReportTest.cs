@@ -18,7 +18,7 @@ namespace extra_forms
         {
             InitializeComponent();
 
-            DisclosureStatementOfLoanCreditTransaction report1 = new DisclosureStatementOfLoanCreditTransaction();
+            TVSPreDeliveryInspectionSheet report1 = new TVSPreDeliveryInspectionSheet();
             documentViewer1.DocumentSource = report1; 
         }
     }
